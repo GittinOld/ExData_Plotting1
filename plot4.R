@@ -37,7 +37,7 @@ png(file = "plot4.png", bg = "white", width = 480, height = 480)
          ylab="Energy sub metering", xlab="")
     lines(x = datetime,y=Sub_metering_2, col = color[2], type = "l")
     lines(x = datetime,y=Sub_metering_3, col = color[3],type = "l")
-    legend("topright", lwd=1, vname, col=color, horiz=FALSE,bg="white")
+    legend("topright", lwd=1, vname, col=color, horiz=FALSE,bty="n", bg="white")
   
     # lower right: new plot of Global_reactive_power
     plot(x = datetime, y=Global_reactive_power, type="l",
