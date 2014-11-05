@@ -40,8 +40,7 @@ png(file = "plot4.png", bg = "white", width = 480, height = 480)
     legend("topright", lwd=1, vname, col=color, horiz=FALSE,bty="n", bg="white")
   
     # lower right: new plot of Global_reactive_power
-    plot(x = datetime, y=Global_reactive_power, type="l",
-         ylab="Global_reactive_power")
+    plot(x = datetime, y=Global_reactive_power, type="l")
   })
 dev.off()
 
