@@ -25,7 +25,7 @@ png(file = "plot4.png", bg = "white", width = 480, height = 480)
   with(p,{
     # upper left: same as plot2.R
     plot(x = datetime, y=Global_active_power, type="l",
-       ylab="Global Active Power (kilowatts)", xlab="")
+       ylab="Global Active Power", xlab="")
   
     # upper right: new plot of Voltage
     plot(x = datetime, y=Voltage, type="l", ylab="Voltage")
